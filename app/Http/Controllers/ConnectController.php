@@ -41,7 +41,7 @@ public function saveLogin(Request $request)
        // dd($request);
        return redirect('/dashboard');
     }
-    
+      
 
 //#f1registro de datos de registro
 
