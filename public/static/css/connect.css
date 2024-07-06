@@ -1,0 +1,181 @@
+body,
+background-color #f6f6f6 {
+    margin: 0
+}
+
+.box {
+    background-color: #f6f6f6;
+    border: 1px solid #d6d6d6;
+    width: 320px;
+    border-radius: 8px;
+}
+
+
+.navbar {
+    background-color: #199319; 
+    padding: 10px;
+
+}
+
+.btn-register {
+ 
+  background-color: #199319; /*color del boton*/  
+  color: white;/*color de la letra del boton*/
+  padding: 8px 7px;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius:10px;
+}
+
+.btn-register:hover {    
+    color: blue;/*color hace referencia a la letra por deafult*/
+    background-color: #f6f68f;
+}
+
+.btn-login {
+ 
+    background-color: #199319; /*color del boton*/  
+    color: white;/*color de la letra del boton*/
+    padding: 8px 7px; /*tamaño del boton*/
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius:10px;
+  }
+  
+
+  .btn-login:hover {     /*cuando se coloca el cursor encima del boton*/
+      color: blue;/*color hace referencia a la letra por deafult*/
+      background-color: #f6f68f;
+  }
+
+/*primer boton para redireccionamiento de pagina*/
+/*
+.btn {
+    tamaño boton
+    padding: 5px;
+    espaciado entre botones,margen
+    margin-right: 20px;
+}
+*/
+
+/*registro prueba*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.body-registro{
+    background: url('/static/img/registro.jpg');
+}
+
+.btn-pagina {
+ 
+    background-color: #199319; /*color del boton*/  
+    color: white;/*color de la letra del boton*/
+    padding: 8px 7px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius:10px;
+  }
+  
+  .btn-pagina:hover {    
+      color: blue;/*color hace referencia a la letra por deafult*/
+      background-color: #f6f68f;
+  }
+
+
+  .form-register {
+    width: 400px;
+    background: #23b14d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px; /*margen superior*/
+    border-radius: 10px;
+   /* font-family: 'calibri'; */
+    color: white;
+    box-shadow: 7px 13px 37px #3f47cc; /*efecto de sombreado sobre el form*/
+  }
+
+.input {
+    width:300px;
+    margin-top: 20px ;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.formatoTexto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin-left: 20px ;
+}
+
+.selection {
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.btn-registro {
+ 
+    margin-top: 20px ;
+    margin-left: 80px;
+    background-color: #199319; /*color del boton de registro*/  
+    color: white;/*color de la letra del boton de registro*/
+    padding: 8px 7px;
+    text-decoration: none;
+    border-radius:10px;
+    
+  }
+
+.btn-registro:hover {    
+    color: blue;/*color hace referencia a la letra por deafult*/
+    background-color: #f6f68f /*color cuando se pasa el cursor por el boton*/;
+}
+
+.bug{
+    background-color: #0065CB;
+}
+
+.ride{
+    background-color: #199319;
+}
+
+/*login*/
+
+.body-login {
+    background: url('/static/img/login.jpg');
+}
+
+.btn-pagina-inicio {
+ 
+    background-color: #199319; /*color del boton*/  
+    color: white;/*color de la letra del boton*/
+    padding: 8px 7px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius:10px;
+  }
+  
+  .btn-pagina-inicio:hover {    
+      color: blue;/*color hace referencia a la letra por deafult*/
+      background-color: #f6f68f;
+  }
+
+  .btn-registro-datos{
+ 
+    background-color: #199319; /*color del boton*/  
+    color: white;/*color de la letra del boton*/
+    padding: 8px 7px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius:10px;
+  }
+  
+  .btn-registro-datos:hover {    
+      color: blue;/*color hace referencia a la letra por deafult*/
+      background-color: #f6f68f;
+  }
