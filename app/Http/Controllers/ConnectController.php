@@ -15,6 +15,7 @@ use Illuminate\Http\Request;
 use Illuminate\View\View;
 /*BASE DE DATOS*/
 use Illuminate\Support\Facades\DB;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 class ConnectController extends Controller
 {
@@ -75,5 +76,9 @@ public function saveLogin(Request $request)
         return view('connect.login');
     }
 
-       
+   ///
+   
+   public function getdashboardLogin () {
+    return view ('connect.dashboard');
+   }
 }

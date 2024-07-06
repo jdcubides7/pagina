@@ -23,7 +23,7 @@ Route::post('/login', 'App\Http\Controllers\ConnectController@saveLogin')->name(
 Route::get('/registro', 'App\Http\Controllers\ConnectController@getRegistro')->name('registro');
 Route::post('/registro', 'App\Http\Controllers\ConnectController@saveRegistro')->name('save');
 
-
+Route::get('/dashboard','App\Http\Controllers\ConnectController@getdashboardLogin')->name('dashboard');
 //no se usa
 //Route::post('/registro', 'App\Http\Controllers\ConnectController@store')->name('registro');
 
