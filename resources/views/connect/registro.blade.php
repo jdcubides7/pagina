@@ -43,7 +43,7 @@
 
 <!--modal de confirmacion-->
 
-
+<!--
 <script>
     function confirmacion() {
 
@@ -58,7 +58,7 @@
     }
 </script>
 
-
+-->
 <!-- ok formulario prueba-->
 
 <body class="body-registro">
@@ -72,19 +72,32 @@
                 <i class="fa-solid fa-hand"></i>
                 <input class="input" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required />
             </div>
+            <!--
             <div>
                 <i class="fa-regular fa-hand"></i>
                 <input class="input" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required />
             </div>
+-->
             <div>
                 <i class="fa-solid fa-envelope"></i>
                 <input class="input" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required /></i>
             </div>
+            <!--
             <div>
                 <i class="fa-solid fa-phone"></i>
                 <input class="input" type="text" name="telefono" id="telefono" placeholder="Ingrese su Telefono" required />
             </div>
+-->
+            <div>
+                <i class="fa-solid fa-key"></i>
+                <input class="input" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" required />
+            </div>
 
+            <div>
+                <i class="fa-solid fa-check"></i>
+                <input class="input" type="password" name="contraseñaConfirmada" id="contraseñaConfirmada" placeholder="Confirme su Contraseña" required />
+            </div>
+<!--
             <label>Producto de su interes</label>
 
             <select class="selection" name="lenguajes" id="lang" required>
@@ -93,6 +106,7 @@
                 <option value="Targetas">Targetas</option>
                 <option value="Infografia">Infografia</option>
             </select>
+-->
             <!--  <input class="input" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña"> -->
             <input class="btn-registro" id="btnSave" type="submit" value="Registrar nuevo usuario" onclick="return confirmacion()" />
 
